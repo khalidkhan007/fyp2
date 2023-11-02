@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dine_easy"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:3:5-66
+11-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:4:5-79
+12-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:4:22-76
+13
+14    <application
+15        android:name="android.app.Application"
+15-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:8:9-42
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.6.0] C:\Users\Qazi\.gradle\caches\transforms-3\7e9df2ac2213a6bd3cef0f2f27870d79\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="fyp" >
+18-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:7:9-28
+19        <activity
+19-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:10:9-30:20
+20            android:name="com.example.dine_easy.MainActivity"
+20-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:11:13-41
+21            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+21-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:15:13-163
+22            android:exported="true"
+22-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:12:13-36
+23            android:hardwareAccelerated="true"
+23-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:16:13-47
+24            android:launchMode="singleTop"
+24-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:13:13-43
+25            android:theme="@style/LaunchTheme"
+25-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:14:13-47
+26            android:windowSoftInputMode="adjustResize" >
+26-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:17:13-55
+27
+28            <!--
+29                 Specifies an Android theme to apply to this Activity as soon as
+30                 the Android process has started. This theme is visible to the user
+31                 while the Flutter UI initializes. After that, this theme continues
+32                 to determine the Window background behind the Flutter UI.
+33            -->
+34            <meta-data
+34-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:22:13-25:19
+35                android:name="io.flutter.embedding.android.NormalTheme"
+35-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:23:17-72
+36                android:resource="@style/NormalTheme" />
+36-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:24:17-54
+37
+38            <intent-filter>
+38-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:26:13-29:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:27:17-68
+39-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:27:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:28:17-76
+41-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:28:27-74
+42            </intent-filter>
+43        </activity>
+44        <!--
+45             Don't delete the meta-data below.
+46             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+47        -->
+48        <meta-data
+48-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:33:9-35:33
+49            android:name="flutterEmbedding"
+49-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:34:13-44
+50            android:value="2" />
+50-->D:\dine_easy-main\android\app\src\main\AndroidManifest.xml:35:13-30
+51
+52        <uses-library
+52-->[androidx.window:window:1.0.0-beta04] C:\Users\Qazi\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+53            android:name="androidx.window.extensions"
+53-->[androidx.window:window:1.0.0-beta04] C:\Users\Qazi\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+54            android:required="false" />
+54-->[androidx.window:window:1.0.0-beta04] C:\Users\Qazi\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+55        <uses-library
+55-->[androidx.window:window:1.0.0-beta04] C:\Users\Qazi\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+56            android:name="androidx.window.sidecar"
+56-->[androidx.window:window:1.0.0-beta04] C:\Users\Qazi\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+57            android:required="false" />
+57-->[androidx.window:window:1.0.0-beta04] C:\Users\Qazi\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+58
+59        <activity
+59-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Qazi\.gradle\caches\transforms-3\e72594a5e1ad3cdd56ec026860a0aae9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+60            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+60-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Qazi\.gradle\caches\transforms-3\e72594a5e1ad3cdd56ec026860a0aae9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+61            android:exported="false"
+61-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Qazi\.gradle\caches\transforms-3\e72594a5e1ad3cdd56ec026860a0aae9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+62-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Qazi\.gradle\caches\transforms-3\e72594a5e1ad3cdd56ec026860a0aae9\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+63
+64        <meta-data
+64-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Qazi\.gradle\caches\transforms-3\63b6551e75d5dac90ab4486da5ee1385\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+65            android:name="com.google.android.gms.version"
+65-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Qazi\.gradle\caches\transforms-3\63b6551e75d5dac90ab4486da5ee1385\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+66            android:value="@integer/google_play_services_version" />
+66-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Qazi\.gradle\caches\transforms-3\63b6551e75d5dac90ab4486da5ee1385\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+67    </application>
+68
+69</manifest>
